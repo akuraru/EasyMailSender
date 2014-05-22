@@ -61,6 +61,7 @@
 		17B5CD9E1C0D7807E4AFD37E /* EasyMailSender.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EasyMailSender.h; sourceTree = "<group>"; };
 		17B5CDCC1CE71DFAD8C8CFB2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		17B5CECDCFB0BA1CF55D99F9 /* EasyMailSender-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "EasyMailSender-Info.plist"; sourceTree = "<group>"; };
+		17B5CF7A55BC68D35F48946E /* EasyMailSender.podspec */ = {isa = PBXFileReference; lastKnownFileType = file.podspec; path = EasyMailSender.podspec; sourceTree = "<group>"; };
 		17B5CF8E620D6D35A9E92DB3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		17B5CFDDC05B003D2DE99306 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		73A2E454192DCE9D0008144E /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Main.strings; sourceTree = "<group>"; };
@@ -155,6 +156,7 @@
 				17B5C9C1B3D98C7C5FE42516 /* EasyMailSenderTests */,
 				17B5CD9F99CC2C437545B13D /* Classes */,
 				17B5C246DB7D24FA40365F4C /* README.md */,
+				17B5CF7A55BC68D35F48946E /* EasyMailSender.podspec */,
 			);
 			sourceTree = "<group>";
 		};
