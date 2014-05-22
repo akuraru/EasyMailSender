@@ -2,7 +2,7 @@
 
 Easy to send e-mail by `MFMailComposeViewController`.
 
-You don't worry about `MFMailComposeViewControllerDelegate`,
+You don't worry about `MFMailComposeViewControllerDelegate`, can write with block.
 
 ## Installation
 
