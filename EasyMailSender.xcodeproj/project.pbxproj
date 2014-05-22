@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17B5C318841933BB905C2C02 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17B5CDCC1CE71DFAD8C8CFB2 /* Foundation.framework */; };
+		17B5C4C2F686618B06CBCB65 /* EasyMailAlertSender.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5CB759A311A3848D558B9 /* EasyMailAlertSender.m */; };
+		17B5C5D6FB45B1C274342486 /* EasyMailSender.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5C0F6551CA53D4D675CDA /* EasyMailSender.m */; };
+		17B5C81B8ECD0E7FC22AF840 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 17B5C2230CDE4579E82F243A /* InfoPlist.strings */; };
+		17B5C8989A4FB7543C61340D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17B5C22BE2AF81E2D9CA15D2 /* Images.xcassets */; };
+		17B5C8C4EED01144FAFD2918 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5C49FC277FBC7CBF561F1 /* main.m */; };
+		17B5C91299EACAC958D4B523 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17B5CDCC1CE71DFAD8C8CFB2 /* Foundation.framework */; };
+		17B5C9AB0E3F90D1863FCA5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17B5C5EE1C7A002CAF7944EF /* Main.storyboard */; };
+		17B5CA3F717EC147D8F7EEEA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17B5C33EBAC673125A06B2F5 /* XCTest.framework */; };
+		17B5CB4CC52D01AF5127BDAE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 17B5CC75E0E93035DD5AA17D /* InfoPlist.strings */; };
+		17B5CDABA3AD7A73BA30C15E /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17B5C9BAB9979B02ADD46FC4 /* MessageUI.framework */; };
+		17B5CDB68975977110573BFD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17B5CB9C3BF11ED6C67F182D /* UIKit.framework */; };
+		17B5CDDEF87C33B298175536 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5CF8E620D6D35A9E92DB3 /* AppDelegate.m */; };
+		17B5CE11AB335D944E0CF59C /* EasyMailSenderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5C781FD8E99F5F5FED2C9 /* EasyMailSenderTests.m */; };
+		17B5CE9D1011E6C6D1B8C291 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17B5CB9C3BF11ED6C67F182D /* UIKit.framework */; };
+		17B5CFF1A3FFA5F96DAFF144 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17B5CFDDC05B003D2DE99306 /* CoreGraphics.framework */; };
+		17B5CFFFC978FE0B79B50D07 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5CCDE275E1F8EF7368785 /* ViewController.m */; };
+		73A2E45D192DD29D0008144E /* EasyMailSenderLocalizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 73A2E45F192DD29D0008144E /* EasyMailSenderLocalizable.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		17B5C1C1002F1B065EA94FA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17B5CDBFE3C16DA53E475B6C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17B5C4A5C07834A1FDCFCFD2;
+			remoteInfo = EasyMailSender;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		17B5C012B1F9612221223230 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		17B5C0F6551CA53D4D675CDA /* EasyMailSender.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EasyMailSender.m; sourceTree = "<group>"; };
+		17B5C12B329C272142925186 /* EasyMailAlertSender.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EasyMailAlertSender.h; sourceTree = "<group>"; };
+		17B5C18FE6BEB077DF1F9F72 /* EasyMailSender.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyMailSender.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		17B5C1E70800DE27C7AF1326 /* EasyMailSenderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasyMailSenderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		17B5C22BE2AF81E2D9CA15D2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		17B5C246DB7D24FA40365F4C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = file.md; path = README.md; sourceTree = "<group>"; };
+		17B5C2A106B3B6DDA26A5507 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		17B5C2F03516AE06866AC5BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		17B5C33EBAC673125A06B2F5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		17B5C49FC277FBC7CBF561F1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		17B5C6E767A4C823B0899285 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		17B5C781FD8E99F5F5FED2C9 /* EasyMailSenderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EasyMailSenderTests.m; sourceTree = "<group>"; };
+		17B5C80A270E047EF6D63AB0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		17B5C841E51BB830345E01E0 /* EasyMailSender-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EasyMailSender-Prefix.pch"; sourceTree = "<group>"; };
+		17B5C9BAB9979B02ADD46FC4 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		17B5CB759A311A3848D558B9 /* EasyMailAlertSender.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EasyMailAlertSender.m; sourceTree = "<group>"; };
+		17B5CB9C3BF11ED6C67F182D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		17B5CCDE275E1F8EF7368785 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		17B5CD55C0363B369D017154 /* EasyMailSenderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "EasyMailSenderTests-Info.plist"; sourceTree = "<group>"; };
+		17B5CD9E1C0D7807E4AFD37E /* EasyMailSender.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EasyMailSender.h; sourceTree = "<group>"; };
+		17B5CDCC1CE71DFAD8C8CFB2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		17B5CECDCFB0BA1CF55D99F9 /* EasyMailSender-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "EasyMailSender-Info.plist"; sourceTree = "<group>"; };
+		17B5CF8E620D6D35A9E92DB3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		17B5CFDDC05B003D2DE99306 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		73A2E454192DCE9D0008144E /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Main.strings; sourceTree = "<group>"; };
+		73A2E45E192DD29D0008144E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/EasyMailSenderLocalizable.strings; sourceTree = "<group>"; };
+		73A2E460192DD2A10008144E /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/EasyMailSenderLocalizable.strings; sourceTree = "<group>"; };
+		73A2E461192DD2A20008144E /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/EasyMailSenderLocalizable.strings; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17B5C6E2C9B198779D26016E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17B5CA3F717EC147D8F7EEEA /* XCTest.framework in Frameworks */,
+				17B5C91299EACAC958D4B523 /* Foundation.framework in Frameworks */,
+				17B5CE9D1011E6C6D1B8C291 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17B5C8B33E090BE962E4FA58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17B5C318841933BB905C2C02 /* Foundation.framework in Frameworks */,
+				17B5CFF1A3FFA5F96DAFF144 /* CoreGraphics.framework in Frameworks */,
+				17B5CDB68975977110573BFD /* UIKit.framework in Frameworks */,
+				17B5CDABA3AD7A73BA30C15E /* MessageUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17B5C16A8FB0CA0661013A85 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				17B5CD55C0363B369D017154 /* EasyMailSenderTests-Info.plist */,
+				17B5CC75E0E93035DD5AA17D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		17B5C228C53547C8869FEC71 /* Localizable */ = {
+			isa = PBXGroup;
+			children = (
+				73A2E45F192DD29D0008144E /* EasyMailSenderLocalizable.strings */,
+			);
+			path = Localizable;
+			sourceTree = "<group>";
+		};
+		17B5C5982301B832B00F7880 /* EasyMailSender */ = {
+			isa = PBXGroup;
+			children = (
+				17B5CF00875610A95E3AB273 /* Supporting Files */,
+				17B5C80A270E047EF6D63AB0 /* AppDelegate.h */,
+				17B5CF8E620D6D35A9E92DB3 /* AppDelegate.m */,
+				17B5C22BE2AF81E2D9CA15D2 /* Images.xcassets */,
+				17B5C5EE1C7A002CAF7944EF /* Main.storyboard */,
+				17B5C6E767A4C823B0899285 /* ViewController.h */,
+				17B5CCDE275E1F8EF7368785 /* ViewController.m */,
+			);
+			path = EasyMailSender;
+			sourceTree = "<group>";
+		};
+		17B5C9C1B3D98C7C5FE42516 /* EasyMailSenderTests */ = {
+			isa = PBXGroup;
+			children = (
+				17B5C16A8FB0CA0661013A85 /* Supporting Files */,
+				17B5C781FD8E99F5F5FED2C9 /* EasyMailSenderTests.m */,
+			);
+			path = EasyMailSenderTests;
+			sourceTree = "<group>";
+		};
+		17B5CA3AF89F1A03902D24A3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				17B5CDCC1CE71DFAD8C8CFB2 /* Foundation.framework */,
+				17B5CFDDC05B003D2DE99306 /* CoreGraphics.framework */,
+				17B5CB9C3BF11ED6C67F182D /* UIKit.framework */,
+				17B5C33EBAC673125A06B2F5 /* XCTest.framework */,
+				17B5C9BAB9979B02ADD46FC4 /* MessageUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		17B5CB3121E34754DF72A343 = {
+			isa = PBXGroup;
+			children = (
+				17B5CD5C54BF3175AFA49F2E /* Products */,
+				17B5CA3AF89F1A03902D24A3 /* Frameworks */,
+				17B5C5982301B832B00F7880 /* EasyMailSender */,
+				17B5C9C1B3D98C7C5FE42516 /* EasyMailSenderTests */,
+				17B5CD9F99CC2C437545B13D /* Classes */,
+				17B5C246DB7D24FA40365F4C /* README.md */,
+			);
+			sourceTree = "<group>";
+		};
+		17B5CD5C54BF3175AFA49F2E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17B5C18FE6BEB077DF1F9F72 /* EasyMailSender.app */,
+				17B5C1E70800DE27C7AF1326 /* EasyMailSenderTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		17B5CD9F99CC2C437545B13D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				17B5C0F6551CA53D4D675CDA /* EasyMailSender.m */,
+				17B5CD9E1C0D7807E4AFD37E /* EasyMailSender.h */,
+				17B5CB759A311A3848D558B9 /* EasyMailAlertSender.m */,
+				17B5C12B329C272142925186 /* EasyMailAlertSender.h */,
+				17B5C228C53547C8869FEC71 /* Localizable */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		17B5CF00875610A95E3AB273 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				17B5CECDCFB0BA1CF55D99F9 /* EasyMailSender-Info.plist */,
+				17B5C2230CDE4579E82F243A /* InfoPlist.strings */,
+				17B5C49FC277FBC7CBF561F1 /* main.m */,
+				17B5C841E51BB830345E01E0 /* EasyMailSender-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		17B5C4A5C07834A1FDCFCFD2 /* EasyMailSender */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17B5CDB4E25D53EA19FF99DC /* Build configuration list for PBXNativeTarget "EasyMailSender" */;
+			buildPhases = (
+				17B5CB06CDD3A63BF2484241 /* Sources */,
+				17B5C8B33E090BE962E4FA58 /* Frameworks */,
+				17B5C69A11F8AFCCBB42FA17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EasyMailSender;
+			productName = EasyMailSender;
+			productReference = 17B5C18FE6BEB077DF1F9F72 /* EasyMailSender.app */;
+			productType = "com.apple.product-type.application";
+		};
+		17B5CFC66018BD15FDF4F6DC /* EasyMailSenderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17B5CA1CECABB84DE12AF82B /* Build configuration list for PBXNativeTarget "EasyMailSenderTests" */;
+			buildPhases = (
+				17B5CEEF92E126E69988964B /* Sources */,
+				17B5C6E2C9B198779D26016E /* Frameworks */,
+				17B5C2860057EAC7CDB6390F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17B5C649F3AB40ECC349961C /* PBXTargetDependency */,
+			);
+			name = EasyMailSenderTests;
+			productName = EasyMailSenderTests;
+			productReference = 17B5C1E70800DE27C7AF1326 /* EasyMailSenderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		17B5CDBFE3C16DA53E475B6C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = azu;
+			};
+			buildConfigurationList = 17B5C5B2A2BE0699A4886609 /* Build configuration list for PBXProject "EasyMailSender" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				ja,
+				Base,
+			);
+			mainGroup = 17B5CB3121E34754DF72A343;
+			productRefGroup = 17B5CD5C54BF3175AFA49F2E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				17B5C4A5C07834A1FDCFCFD2 /* EasyMailSender */,
+				17B5CFC66018BD15FDF4F6DC /* EasyMailSenderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		17B5C2860057EAC7CDB6390F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17B5CB4CC52D01AF5127BDAE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17B5C69A11F8AFCCBB42FA17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17B5C81B8ECD0E7FC22AF840 /* InfoPlist.strings in Resources */,
+				17B5C8989A4FB7543C61340D /* Images.xcassets in Resources */,
+				17B5C9AB0E3F90D1863FCA5E /* Main.storyboard in Resources */,
+				73A2E45D192DD29D0008144E /* EasyMailSenderLocalizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		17B5CB06CDD3A63BF2484241 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17B5C8C4EED01144FAFD2918 /* main.m in Sources */,
+				17B5CDDEF87C33B298175536 /* AppDelegate.m in Sources */,
+				17B5CFFFC978FE0B79B50D07 /* ViewController.m in Sources */,
+				17B5C5D6FB45B1C274342486 /* EasyMailSender.m in Sources */,
+				17B5C4C2F686618B06CBCB65 /* EasyMailAlertSender.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17B5CEEF92E126E69988964B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17B5CE11AB335D944E0CF59C /* EasyMailSenderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		17B5C649F3AB40ECC349961C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 17B5C4A5C07834A1FDCFCFD2 /* EasyMailSender */;
+			targetProxy = 17B5C1C1002F1B065EA94FA4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		17B5C2230CDE4579E82F243A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17B5C012B1F9612221223230 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		17B5C5EE1C7A002CAF7944EF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17B5C2F03516AE06866AC5BC /* Base */,
+				73A2E454192DCE9D0008144E /* ja */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		17B5CC75E0E93035DD5AA17D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17B5C2A106B3B6DDA26A5507 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		73A2E45F192DD29D0008144E /* EasyMailSenderLocalizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				73A2E45E192DD29D0008144E /* en */,
+				73A2E460192DD2A10008144E /* ja */,
+				73A2E461192DD2A20008144E /* Base */,
+			);
+			name = EasyMailSenderLocalizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		17B5C3804FCEAD3776F34F09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EasyMailSender/EasyMailSender-Prefix.pch";
+				INFOPLIST_FILE = "EasyMailSender/EasyMailSender-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		17B5C4479C0F370A5132B15D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		17B5C886B8CFFB76F0E56CC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		17B5C9DEA64878D79529928C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EasyMailSender/EasyMailSender-Prefix.pch";
+				INFOPLIST_FILE = "EasyMailSenderTests/EasyMailSenderTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+		17B5CD5EFFC2356523AF65F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EasyMailSender/EasyMailSender-Prefix.pch";
+				INFOPLIST_FILE = "EasyMailSenderTests/EasyMailSenderTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		17B5CF6AE54045DA34E88E65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EasyMailSender/EasyMailSender-Prefix.pch";
+				INFOPLIST_FILE = "EasyMailSender/EasyMailSender-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17B5C5B2A2BE0699A4886609 /* Build configuration list for PBXProject "EasyMailSender" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17B5C4479C0F370A5132B15D /* Debug */,
+				17B5C886B8CFFB76F0E56CC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17B5CA1CECABB84DE12AF82B /* Build configuration list for PBXNativeTarget "EasyMailSenderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17B5CD5EFFC2356523AF65F6 /* Debug */,
+				17B5C9DEA64878D79529928C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17B5CDB4E25D53EA19FF99DC /* Build configuration list for PBXNativeTarget "EasyMailSender" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17B5CF6AE54045DA34E88E65 /* Debug */,
+				17B5C3804FCEAD3776F34F09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 17B5CDBFE3C16DA53E475B6C /* Project object */;
+}
