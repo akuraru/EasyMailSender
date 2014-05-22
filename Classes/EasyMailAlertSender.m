@@ -19,7 +19,9 @@
 }
 
 - (void)mailComposeController:(MFMailComposeViewController *) controller didFinishWithResult:(MFMailComposeResult) result error:(NSError *) error {
-    NSBundle *bundle = [NSBundle mainBundle];
+    NSBundle *classBundle = [NSBundle bundleForClass:[self class]];
+    NSString *bundlePath = [classBundle pathForResource:@"EasyMailSender" ofType:@"bundle"];
+    NSBundle *bundle = [NSBundle bundleWithPath:bundlePath] ?: [NSBundle mainBundle];
     switch (result) {
         case MFMailComposeResultCancelled:
             break;
