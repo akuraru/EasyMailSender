@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name                = "EasyMailSender"
-  s.version             = "0.0.1"
+  s.version             = "0.0.2"
   s.summary             = "Easy to send e-mail by MFMailComposeViewController."
   s.homepage            = "https://github.com/azu/EasyMailSender"
   s.license             = {:type => "MIT", :file => "LICENSE"}
