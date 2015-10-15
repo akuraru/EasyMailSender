@@ -44,5 +44,11 @@
     }
 }
 
+- (void)showFromViewController:(UIViewController *) viewController competion:(void(^)(void))completion {
+    if ([MFMailComposeViewController canSendMail]) {
+        [viewController presentViewController:self.mailComposeViewController animated:YES completion:completion];
+        [self setKeepInMemory:self];
+    }
+}
 
 @end

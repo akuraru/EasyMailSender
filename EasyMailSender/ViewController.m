@@ -39,4 +39,18 @@
     }];
     [mailSender showFromViewController:self];
 }
+
+- (IBAction)handleMailButtonWithCompletion:(id) sender {
+    NSString *attachedText = @"text";
+    EasyMailAlertSender *mailSender = [EasyMailAlertSender easyMail:^(MFMailComposeViewController *controller) {
+        // Setup
+        [controller addAttachmentData:[attachedText dataUsingEncoding:NSUTF8StringEncoding] mimeType:@"plain/text" fileName:@"test.txt"];
+    } complete:^(MFMailComposeViewController *controller, MFMailComposeResult result, NSError *error) {
+        // When Sent/Cancel - MFMailComposeViewControllerDelegate action
+        [controller dismissViewControllerAnimated:YES completion:nil];
+    }];
+    [mailSender showFromViewController:self competion:^{
+        [[[UIAlertView alloc] initWithTitle:@"Information" message:@"Mail View is presented" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil] show];
+    }];
+}
 @end
