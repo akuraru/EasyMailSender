@@ -4,7 +4,7 @@
 
 
 #import <Foundation/Foundation.h>
-
+@import MessageUI;
 @class MFMailComposeViewController;
 
 
